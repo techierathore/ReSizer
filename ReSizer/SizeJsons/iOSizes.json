@@ -1,0 +1,99 @@
+﻿[
+    {
+      "ImageName": "58X58",
+      "Width": "58",
+      "Height": "58",
+      "Scale": "2x"
+    },
+    {
+      "ImageName": "87X87",
+      "Width": "87",
+      "Height": "87",
+      "Scale": "3x"
+    },
+    {
+      "ImageName": "80X80",
+      "Width": "80",
+      "Height": "80",
+      "Scale": "2x"
+    },
+    {
+      "ImageName": "120X120",
+      "Width": "120",
+      "Height": "120",
+      "Scale": "3x"
+    },
+    {
+      "ImageName": "180X180",
+      "Width": "180",
+      "Height": "180",
+      "Scale": "3x"
+    },
+    {
+      "ImageName": "29X29",
+      "Width": "29",
+      "Height": "29",
+      "Scale": "1x"
+    },
+    {
+      "ImageName": "40X40",
+      "Width": "40",
+      "Height": "40",
+      "Scale": "1x"
+    },
+    {
+      "ImageName": "76X76",
+      "Width": "76",
+      "Height": "76",
+      "Scale": "1x"
+    },
+    {
+      "ImageName": "152X152",
+      "Width": "152",
+      "Height": "152",
+      "Scale": "2x"
+    },
+    {
+      "ImageName": "167X167",
+      "Width": "167",
+      "Height": "167",
+      "Scale": "2x"
+    },
+    {
+      "ImageName": "640X960",
+      "Width": "640",
+      "Height": "960",
+      "Scale": "2x"
+    },
+    {
+      "ImageName": "640X1136",
+      "Width": "640",
+      "Height": "1136",
+      "Scale": "Retina4"
+    },
+    {
+      "ImageName": "768X1024",
+      "Width": "768",
+      "Height": "1024",
+      "Scale": "1x"
+    },
+    {
+      "ImageName": "1536X2048",
+      "Width": "1536",
+      "Height": "2048",
+      "Scale": "2x"
+    },
+    {
+      "ImageName": "1024X768",
+      "Width": "1024",
+      "Height": "768",
+      "Scale": "1x"
+    },
+    {
+      "ImageName": "2048X1536",
+      "Width": "2048",
+      "Height": "1536",
+      "Scale": "2x"
+    }
+  ]
+
