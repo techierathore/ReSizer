@@ -42,17 +42,20 @@ namespace ReSizer
         private void CreateImages(string sBaseImagePath)
         {
             var vOutPath = AppDomain.CurrentDomain.BaseDirectory;
+            var vFileName = Path.GetFileNameWithoutExtension(sBaseImagePath);
+            var vImageOutPath = vOutPath + @"\" + vFileName;
+            Directory.CreateDirectory(vOutPath);
             var log = false;  var verbose = false;  var quiet = false;
             Logger.Init(vOutPath, log, verbose, quiet);
             Logger.WriteLine("Begin Resizing Images!");
             Logger.WriteVerbose("Writing files to {0}", vOutPath);
             if (chkiOS.Checked)
             {
-                var viOSOutputPath = vOutPath + "\\iOSImages";
+                var viOSOutputPath = vImageOutPath + @"\iOSImages";
                 Directory.CreateDirectory(viOSOutputPath);
                 Logger.WriteVerbose("Created directory {0} for iOS Images", viOSOutputPath);
 
-                var viOSizesFile = vOutPath + "\\SizeJsons\\iOSizes.json";
+                var viOSizesFile = vOutPath + @"\SizeJsons\iOSizes.json";
                 var vLoadedFileJson = File.ReadAllText(viOSizesFile);
                 var viOsSizes = JsonConvert.DeserializeObject<IEnumerable<AppImage>>(vLoadedFileJson);
                 foreach(var vSingleSize in viOsSizes)
@@ -70,11 +73,11 @@ namespace ReSizer
             }
             if (chkAndroid.Checked)
             {
-                var vAndroidPath = vOutPath + "\\AndroidImages";
+                var vAndroidPath = vImageOutPath + @"\AndroidImages";
                 Directory.CreateDirectory(vAndroidPath);
                 Logger.WriteVerbose("Created directory {0} for Android Images", vAndroidPath);
 
-                var vDroidSizesFile = vOutPath + "\\SizeJsons\\AndroidSizes.json";
+                var vDroidSizesFile = vOutPath + @"\SizeJsons\AndroidSizes.json";
                 var vDroidSizeJson = File.ReadAllText(vDroidSizesFile);
                 var vDroidSizes = JsonConvert.DeserializeObject<IEnumerable<AppImage>>(vDroidSizeJson);
                 foreach (var vSingleSize in vDroidSizes)
@@ -92,11 +95,11 @@ namespace ReSizer
             }
             if (chkUwp.Checked)
             {
-                var vUwpPath = vOutPath + "\\UwpImages";
+                var vUwpPath = vImageOutPath + @"\UwpImages";
                 Directory.CreateDirectory(vUwpPath);
                 Logger.WriteVerbose("Created directory {0} for Uwp Images", vUwpPath);
 
-                var vUwpSizesFile = vOutPath + "\\SizeJsons\\UwpSizes.json";
+                var vUwpSizesFile = vOutPath + @"\SizeJsons\UwpSizes.json";
                 var vUwpSizeJson = File.ReadAllText(vUwpSizesFile);
                 var vUwpSizes = JsonConvert.DeserializeObject<IEnumerable<AppImage>>(vUwpSizeJson);
                 foreach (var vSingleSize in vUwpSizes)

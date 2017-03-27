@@ -62,7 +62,7 @@
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(13, 13);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(395, 175);
+            this.groupBox1.Size = new System.Drawing.Size(563, 175);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             // 
@@ -202,7 +202,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(418, 196);
+            this.ClientSize = new System.Drawing.Size(588, 196);
             this.Controls.Add(this.groupBox1);
             this.MaximizeBox = false;
             this.Name = "ReSizerTool";
