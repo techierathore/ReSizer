@@ -3,7 +3,7 @@ A simple GUI tool to help you manage the images in your cross-platform applicati
 
 ###Contributing###
 
-This is my first stab at this tool, and it might be missing feature X, or platform Y. If you want something that it can't currently provide, I love pull requests. If it's a bigger change, a fresh Issue goes along ways before PR.
+Altough I have tried to make this tool simple and easy to use but it might be missing feature X, or platform Y. If you want something that it can't currently provide, I love pull requests. If it's a bigger change, you can also create new tool using this code like I did with this tool.
 
 ###License###
 
