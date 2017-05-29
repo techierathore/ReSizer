@@ -1,5 +1,5 @@
 # ReSizer
-A simple GUI tool to help you manage the images in your cross-platform applications. This tool is inspired by [DownSize](https://github.com/ChaseFlorell/Downsize) infact I am using it's logging and image convertion code, So kind of a new updated version of DownSize. 
+A simple GUI tool to help create the images required for Mobile Apps. This tool is inspired by [DownSize](https://github.com/ChaseFlorell/Downsize) infact I am using it's logging and image convertion code, So kind of a new updated version of DownSize. 
 
 ###Contributing###
 
