@@ -1,5 +1,6 @@
 # ReSizer
-A simple GUI tool to help create the images required for Mobile Apps. This tool is inspired by [DownSize](https://github.com/ChaseFlorell/Downsize) infact I am using it's logging and image convertion code, So kind of a new updated version of DownSize. 
+A simple GUI based desktop tool for resizing images, It can be used for to resize the Logo/App Icon for various mobile versions or resize a generic image to a particular size without loosing the quality of the image
+This tool is inspired by [DownSize](https://github.com/ChaseFlorell/Downsize) infact I am using it's logging and image convertion code, So kind of a new updated version of DownSize. 
 
 ###Contributing###
 
